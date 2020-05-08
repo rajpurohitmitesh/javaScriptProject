@@ -16,6 +16,9 @@ syntax is
         /*
         this is used for multi line comment
         */
+        
+> You can use Live Server plugin in visual studio code so that you dont need to refresh the browser to take the latest change, after installing plugin, just click on Go Live button at bottom of visual studio code and new browser will open, and you no need to refresh the browser.
   
 Methods:
+
 document.write = this is used to print/write the text on web page
