@@ -1,0 +1,1 @@
+document.write("Hello...i am called from another file")
