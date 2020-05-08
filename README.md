@@ -10,5 +10,12 @@ syntax is
 <script src="myJSFile" type="text/javascript">
   </script>
   
+> you can separate the statement in JS code using Semicolon (;)
+
+> //this is "//" used for single line comment
+        /*
+        this is used for multi line comment
+        */
+  
 Methods:
 document.write = this is used to print/write the text on web page
