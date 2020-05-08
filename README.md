@@ -18,6 +18,8 @@ syntax is
         */
         
 > You can use Live Server plugin in visual studio code so that you dont need to refresh the browser to take the latest change, after installing plugin, just click on Go Live button at bottom of visual studio code and new browser will open, and you no need to refresh the browser.
+
+> for auto save file in visual studio code, go to setting > search for save > scroll down , choose after delay option and make time as 500ms
   
 Methods:
 
