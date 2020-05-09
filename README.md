@@ -24,9 +24,15 @@ syntax is
 > JS is loosely coupled and dynamic scripting language.
 
 > Data type in JS
+
     1. Primitive Types > Numbers , String , Boolean
+    
     2. Trivial Types > Null, Undefined
+    
     3. Composite Types > Objects , Arrays
+    
+    
+> JS is dynamic as you can change the variable value to any data type 
   
 Methods:
 
