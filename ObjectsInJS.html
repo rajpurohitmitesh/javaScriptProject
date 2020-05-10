@@ -1,0 +1,35 @@
+<html><head>
+    <script type="text/javascript">
+        //below is called object of cars, sometime whe we have any many properties of objetc, we create like below this
+        var cars={
+            cars_name:"Tesla",
+            cars_model:"model 3",
+            cars_price:35000,
+
+            myFunction:function f1(){
+                document.write("i am in function f1");
+            }
+
+        }
+        document.write(cars.cars_model);
+        cars.myFunction();
+        
+
+        //but for above the issue is if we want to pass the dynamic values, than we shud use function constructor
+
+        function f2(cars_name,cars_model,cars_price){
+            this.cars_name=cars_name;
+            this.cars_model=cars_model;
+            this.cars_price=cars.cars_price;
+            this.myfunction2=function f2(){
+                document.write("i am in function f2");
+            }
+
+        }
+
+        var c1=new f2("maruti","model p",45000);
+        document.write(c1.cars_name);
+        c1.myfunction2();
+        
+        </script>
+</head></html>
