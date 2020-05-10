@@ -1,0 +1,30 @@
+<html>
+    <head title="Form validation">
+        <script type="text/javascript">
+            function fn1(){
+                var rd1=document.getElementById("rd1");
+                var rd2=document.getElementById("rd2");
+
+                if(rd1.checked==true){
+                    alert("you selected the radio button "+rd1.value);
+                }
+                else if(rd2.checked==true){
+                    alert("you selected the radio button "+rd2.value);
+                }
+                else{
+                    alert("you did not select the radio button....");
+                }
+            }
+            </script>
+    </head>
+    <body>
+
+<input type="radio" name="grp1" id="rd1" value="male">Male</input><br><br>
+<input type="radio" name="grp1" id="rd2" value="female">Female</input><br><br>
+<button onclick="fn1()" id="btn1">Submit</button><br>
+
+
+
+
+    </body>
+</html>
